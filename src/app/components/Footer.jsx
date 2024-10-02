@@ -17,7 +17,7 @@ const Footer = () => {
                     <ul className='flex flex-col items-center text-center'>
                         <li className='hover:text-[#EB2877] duration-300'>
                             <Link
-                                href='https://www.instagram.com/homehealth.med/'
+                                href='#'
                                 target='_blank'
                             >
                                 <p className='flex font-medium items-center gap-1'>
@@ -28,19 +28,19 @@ const Footer = () => {
                         </li>
                         <li className='hover:text-black duration-300'>
                             <Link
-                                href='https://www.tiktok.com/@homehealth.med'
+                                href='#'
                                 target='_blank'
                             >
                                 <p className='flex font-medium items-center gap-1'>
                                     <AiOutlineTikTok />
-                                    homehealth.med
+                                    vivococina
                                 </p>
                             </Link>
                         </li>
                         <li>
                             <p className='flex font-medium items-center gap-1'>
                                 <AiOutlineMail />
-                                homehealth.med2315@gmail.com
+                                vivococina@gmail.com
                             </p>
                         </li>
                     </ul>
