@@ -1,11 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
-import { IoLogoWhatsapp } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 
 const ButtonWps = () => {
     return (
-        <div className='fixed right-0 bottom-0 z-10'>
+        <div className='fixed right-10 bottom-10 z-10'>
             <Link
                 href='https://wa.link/vujv8i'
                 target='_blank'

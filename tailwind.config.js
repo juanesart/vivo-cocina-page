@@ -10,10 +10,13 @@ module.exports = {
       colors: {
         primary: '#361012',
         secondary: '#E62C26',
-        hoverPri: 'rgba(243, 147, 126, 0.4)',
+        hoverPri: 'rgba(255, 94, 59, 0.3)',
         hoverSec: '#BEBDBD',
         bgSalud: 'rgba(148, 202, 228, 0.4)',
-        bgSand: 'rgba(243, 200, 126, 0.4)'
+        bgSand: 'rgba(243, 200, 126, 0.4)',
+        bgBebidas: 'rgba(88, 245, 119, 0.4)',
+        bgCenas: 'rgba(119, 88, 245, 0.3)',
+        bgPaella: 'rgba(245, 119, 88, 0.4)',
       },
     },
   },

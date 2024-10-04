@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/*---------slider animation-------------*/
 .slider-text {
   opacity: 0;
   transition: opacity 1s ease-in-out;
@@ -10,7 +11,7 @@
 .slider-text.fade-in {
   opacity: 1;
 }
-
+/*---------service animation-------------*/
 .block1 {
   animation: appear ease-in-out;
   animation-timeline: view();
@@ -25,6 +26,22 @@
   to {
     opacity: 1;
     scale: 1;
+  }
+}
+/*---------logo animation-------------*/
+
+.apper-logo {
+  animation: float 3s ease-in-out;
+}
+
+@keyframes float {
+  0% {
+    opacity: 0;
+    transform: translatex(-250px);
+  }
+  100% {
+    opacity: 1;
+    transform: translatex(0px);
   }
 }
 
