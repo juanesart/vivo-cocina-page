@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Service = ({ children, title, colorTitle, colorBg, imgSrc, ...props }) => {
     return (
         <div id="servicio">
-            <div className="max-w-[1200px] block1 py-20 mx-auto">
+            <div className="max-w-[1200px] block1 py-10 mx-auto">
                 <div className={`p-8 rounded-3xl ${colorBg}`}>
                     <h1 className={`text-3xl ${colorTitle} font-bold text-center py-5`}>{title}</h1>
                     <div className="flex flex-col md:flex-row items-start text-xl gap-2 flex-wrap">

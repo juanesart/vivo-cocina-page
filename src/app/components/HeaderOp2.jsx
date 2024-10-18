@@ -3,12 +3,12 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Header = () => {
+const HeaderOp2 = () => {
     return (
         <section id='header' className=' bg-white shadow-secondary shadow-lg fixed z-40 top-0 w-full'>
             <div className=" max-w-[1200px] text-primary mx-auto">
-                <div className=" flex p-4 items-center justify-center md:justify-between">
-                    <div className="w-0 sm:w-full">
+                <div className=" flex flex-col p-4 items-center justify-center ">
+                    <div className=" text-center items-center ">
                         <Link href={'#'}>
                             <img src="https://i.postimg.cc/jjmvvB2N/logo-PVivo.png"
                                 className=" w-[64px] " alt="logo" />
@@ -54,4 +54,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default HeaderOp2;

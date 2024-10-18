@@ -9,8 +9,7 @@ const Hero = () => {
         "Deleita tu paladar con refrigerios de Autor",
         "Lleva la alta cocina a tus eventos",
         "Productos frescos",
-        "Elaborados a la minuta para tus eventos",
-        "Empacados en material biodegradable de lujo"
+        "Elaborados a la minuta para tus eventos"
     ]
 
     const [fraseActual, setFraseActual] = useState(0);
@@ -29,7 +28,7 @@ const Hero = () => {
 
     return (
         <div id="hero">
-            <div className="max-w-[1200px] mx-auto">
+            <div className="max-w-[1200px] px-4 xl:px-0 mx-auto">
                 <div className=" absolute top-0 -z-10 right-0 lg:right-80">
                     <img src="https://i.postimg.cc/KjfcNDdW/elipsedecor.png"
                         alt="" />

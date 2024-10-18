@@ -18,6 +18,9 @@ module.exports = {
         bgCenas: 'rgba(119, 88, 245, 0.3)',
         bgPaella: 'rgba(245, 119, 88, 0.4)',
       },
+      screens: {
+        '3xl': '1720px',
+      },
     },
   },
   plugins: [],
