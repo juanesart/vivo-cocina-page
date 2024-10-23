@@ -7,11 +7,12 @@ import Footer from "./components/Footer";
 import ButtonWps from "./components/ButtonWps";
 import Extra from "./components/Extra";
 import HeaderOp2 from "./components/HeaderOp2";
+import HeaderBlack from "./components/HeaderBlack";
 
 export default function Home() {
   return (
     <div className="flex min-h-screen view flex-col">
-      <HeaderOp2 />
+      <HeaderBlack />
       <FloatLogo />
       <Hero />
       <About />

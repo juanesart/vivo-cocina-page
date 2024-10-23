@@ -17,6 +17,7 @@ module.exports = {
         bgBebidas: 'rgba(88, 245, 119, 0.4)',
         bgCenas: 'rgba(119, 88, 245, 0.3)',
         bgPaella: 'rgba(245, 119, 88, 0.4)',
+        bgMexicano: 'rgba(245, 142, 66, 0.4)'        
       },
       screens: {
         '3xl': '1720px',

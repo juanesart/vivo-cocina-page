@@ -11,7 +11,7 @@ const Service = ({ children, title, colorTitle, colorBg, imgSrc, ...props }) => 
                         <div className="flex-1">
                             {children}
                         </div>
-                        <div className="max-w-[40%] ">
+                        <div className="sm:max-w-[40%] ">
                             <Image src={imgSrc}
                                 className="object-cover rounded-full opacity-85 hover:opacity-100"
                                 alt={title} />

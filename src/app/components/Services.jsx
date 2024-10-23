@@ -1,26 +1,30 @@
 import Service from "./Service";
+import Service2 from "./Service2";
+import ServiceQuad from "./ServiceQuad";
 import { GiChiliPepper } from "react-icons/gi";
 import { PiPlant } from "react-icons/pi";
 import { LuSandwich } from "react-icons/lu";
 import { FaBowlFood } from "react-icons/fa6";
 import paella1 from "../assets/paella1.webp";
-import texano1 from "../assets/texano1.jpeg";
 import parfait1 from "../assets/parfait1.webp";
 import sandwich1 from "../assets/sandwich1.webp";
 import almuerzo1 from "../assets/almuerzo1.webp";
 import bebidas from "../assets/bebidas.webp";
+import mariscos from "../assets/mariscos.webp";
+import mexicano from "../assets/mexicano.webp";
+import bebidasQ from "../assets/bebidasQ.webp";
 
 const Services = () => {
     return (
         <div id="services" className="">
             <div className="max-w-[1200px] mx-auto py-20">
                 <h1 className="text-3xl py-20 text-primary font-bold text-center ">Servicios</h1>
-                <div id="refrigerios" className="">
+                <div id="mexicanos" className="">
                     <Service
                         title="REFRIGERIOS MEXICANOS"
                         colorTitle={"text-secondary"}
-                        colorBg={"bg-bgPaella"}
-                        imgSrc={texano1}>
+                        colorBg={"bg-bgMexicano"}
+                        imgSrc={mexicano}>
                         <div className="py-8 font-medium">
                             <div className="flex gap-2 items-center">
                                 <GiChiliPepper fill="red" />
@@ -74,6 +78,8 @@ const Services = () => {
                             </div>
                         </div>
                     </Service>
+                </div>
+                <div id="saludables" className="">
                     <Service
                         title="REFRIGERIOS SALUDABLES"
                         colorTitle={"text-green-500"}
@@ -119,6 +125,8 @@ const Services = () => {
                             </div>
                         </div>
                     </ Service>
+                </div>
+                <div id="sandwiches" className="">
                     <Service
                         title="SANDWICH REFRIGERIOS"
                         colorTitle={"text-orange-600"}
@@ -127,7 +135,7 @@ const Services = () => {
                         <div className="py-8 font-medium">
                             <div className="flex gap-2 items-center">
                                 <LuSandwich fill="orange" />
-                                <h3 className="font-bold text-orange-600 text-xl">SANDWISH INTEGRAL:</h3>
+                                <h3 className="font-bold text-orange-600 text-xl">SANDWICH INTEGRAL:</h3>
                             </div>
                             <div className="flex py-2 gap-4">
                                 <p>
@@ -139,7 +147,7 @@ const Services = () => {
                         <div className="py-8 font-medium">
                             <div className="flex gap-2 items-center">
                                 <LuSandwich fill="orange" />
-                                <h3 className="font-bold text-orange-600 text-xl">SANDWISH AGRIDULCE:</h3>
+                                <h3 className="font-bold text-orange-600 text-xl">SANDWICH AGRIDULCE:</h3>
                             </div>
                             <div className="flex py-2 gap-4">
                                 <p>
@@ -151,7 +159,7 @@ const Services = () => {
                         <div className="py-8 font-medium">
                             <div className="flex gap-2 items-center">
                                 <LuSandwich fill="orange" />
-                                <h3 className="font-bold text-orange-600 text-xl">SANDWISH AMERICANO:</h3>
+                                <h3 className="font-bold text-orange-600 text-xl">SANDWICH AMERICANO:</h3>
                             </div>
                             <div className="flex py-2 gap-4">
                                 <p>
@@ -163,11 +171,12 @@ const Services = () => {
                     </Service>
                 </div>
                 <div id="almuerzos" className="">
-                    <Service
+                    <Service2
                         title="ALMUERZOS Y CENAS EMPACADOS"
                         colorTitle={"text-[#f57758]"}
                         colorBg={"bg-bgCenas"}
-                        imgSrc={almuerzo1}>
+                        imgSrc={almuerzo1}
+                        imgSrc2={mariscos}>
                         <div className="py-8 font-medium">
                             <h2 className="font-bold text-[#f57758] text-2xl">CARNES:</h2>
                             <div className="flex gap-2 items-center">
@@ -254,7 +263,7 @@ const Services = () => {
 
                             </div>
                         </div>
-                    </Service>
+                    </Service2>
                 </div>
                 <div id="paellas" className="">
                     <Service
@@ -317,11 +326,11 @@ const Services = () => {
                     </Service>
                 </div>
                 <div id="bebidas" className="">
-                    <Service
+                    <ServiceQuad
                         title="ESTACION DE BEBIDAS FRÍAS A LA MINUTA"
                         colorTitle={"text-[#f55878]"}
                         colorBg={"bg-bgBebidas"}
-                        imgSrc={bebidas}>
+                        imgSrc={bebidasQ}>
                         <div className="py-8 font-medium">
                             <h2 className="font-bold text-[#58b7f5] text-2xl">SODAS:</h2>
                             <div className="flex gap-2 items-center">
@@ -421,7 +430,7 @@ const Services = () => {
 
                             </div>
                         </div>
-                    </Service>
+                    </ServiceQuad>
                 </div>
             </div>
         </div>

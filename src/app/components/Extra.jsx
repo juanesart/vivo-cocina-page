@@ -47,7 +47,7 @@ const Extra = () => {
                             </div>
                             <div className="">
                                 <Image src={cheft}
-                                    className="object-cover rounded-full border-8 border-secondary" alt="chef" />
+                                    className="object-cover rounded-3xl shadow-2xl" alt="chef" />
                             </div>
                         </div>
                     </div>

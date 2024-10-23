@@ -5,8 +5,8 @@ import { AiOutlineMail, AiOutlineInstagram, AiOutlineFacebook, AiOutlineTikTok, 
 
 const Footer = () => {
     return (
-        <div id='footer' className='bg-primary z-50'>
-            <div className="max-w-[960px] p-8 flex md:flex-row items-center flex-col md:items-end justify-between mx-auto text-white">
+        <div id='footer' className='bg-black z-50'>
+            <div className="max-w-[1200px] p-8 flex md:flex-row items-center flex-col md:items-end justify-between mx-auto text-white">
                 <div className="">
                     <Link href={'#'}>
                         <img src="https://i.postimg.cc/jjmvvB2N/logo-PVivo.png"
@@ -17,30 +17,30 @@ const Footer = () => {
                     <ul className='flex flex-col items-center text-center'>
                         <li className='hover:text-[#EB2877] duration-300'>
                             <Link
-                                href='#'
+                                href='https://www.instagram.com/vivopaellas?igsh=MWJlbmxwZjA2M3U0OA=='
                                 target='_blank'
                             >
                                 <p className='flex font-medium items-center gap-1'>
                                     <AiOutlineInstagram />
-                                    vivococina
+                                    vivopaellas
                                 </p>
                             </Link>
                         </li>
-                        <li className='hover:text-black duration-300'>
+                        <li className='hover:text-[#405de6] duration-300'>
                             <Link
-                                href='#'
+                                href='https://www.facebook.com/share/65eNG8sgdszX8u5B/'
                                 target='_blank'
                             >
                                 <p className='flex font-medium items-center gap-1'>
-                                    <AiOutlineTikTok />
-                                    vivococina
+                                    <AiOutlineFacebook />
+                                    vivopaellas
                                 </p>
                             </Link>
                         </li>
                         <li>
                             <p className='flex font-medium items-center gap-1'>
                                 <AiOutlineMail />
-                                vivococina@gmail.com
+                                vivococinarte@gmail.com
                             </p>
                         </li>
                     </ul>
