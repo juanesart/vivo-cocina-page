@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import cheft from '../assets/cheft2.webp';
 import cheft3 from '../assets/cheft3.webp';
+import cheftBlur from '../assets/cheftBlur.webp';
 const Extra = () => {
     return (
         <div id="shows" className="">
@@ -14,7 +15,7 @@ const Extra = () => {
                         <div className="col-span-2 flex  justify-between gap-4 object-cover overflow-hidden">
                             <Image src={cheft}
                                 className="object-cover rounded-3xl  shadow-2xl max-w-[48%]" alt="chef" />
-                            <Image src={cheft3}
+                            <Image src={cheftBlur}
                                 className="object-cover rounded-3xl shadow-2xl max-w-[48%]" alt="chef" />
 
                         </div>

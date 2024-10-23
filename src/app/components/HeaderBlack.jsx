@@ -43,7 +43,7 @@ const HeaderBlack = () => {
                                     <Link href={'#paellas'}>Paellas</Link>
                                 </li>
                                 <li className='block px-4 py-2 text-gray-800 hover:bg-gray-200 duration-300'>
-                                    <Link href={'#bebidas'}>Bebidas</Link>
+                                    <Link href={'#bebidas'}>Bebidas Frías</Link>
                                 </li>
                                 <li className='block px-4 py-2 text-gray-800 hover:bg-gray-200 duration-300'>
                                     <Link href={'#shows'}>Shows</Link>

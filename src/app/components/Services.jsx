@@ -12,7 +12,7 @@ import almuerzo1 from "../assets/almuerzo1.webp";
 import bebidas from "../assets/bebidas.webp";
 import mariscos from "../assets/mariscos.webp";
 import mexicano from "../assets/mexicano.webp";
-import bebidasQ from "../assets/bebidasQ.webp";
+import bebidasN from "../assets/bebidasN.jpeg";
 
 const Services = () => {
     return (
@@ -139,7 +139,8 @@ const Services = () => {
                             </div>
                             <div className="flex py-2 gap-4">
                                 <p>
-                                    Pan Integral Artesanal, Queso Mozzarella, Tomate, Rúcula y Salsa Miel Mostaza.
+                                    Pan Integral Artesanal, Queso Mozzarella, Tomate, Rúcula y Salsa Miel Mostaza.<br />
+                                    <span className="font-bold">Bebida: </span> Jugo en presentación de caja.
                                 </p>
 
                             </div>
@@ -151,7 +152,8 @@ const Services = () => {
                             </div>
                             <div className="flex py-2 gap-4">
                                 <p>
-                                    Pan Agridulce, Queso Mozzarella, Jamón de Cerdo, Salsa Agridulce y Lechuga fresca.
+                                    Pan Agridulce, Queso Mozzarella, Jamón de Cerdo, Salsa Agridulce y Lechuga fresca.<br />
+                                    <span className="font-bold">Bebida: </span> Jugo en presentación de caja.
                                 </p>
 
                             </div>
@@ -163,7 +165,8 @@ const Services = () => {
                             </div>
                             <div className="flex py-2 gap-4">
                                 <p>
-                                    Pan de Cereal; Queso Americano, Jamón de Pollo, Lechuga crespa y Salsa Tártara.
+                                    Pan de Cereal; Queso Americano, Jamón de Pollo, Lechuga crespa y Salsa Tártara.<br />
+                                    <span className="font-bold">Bebida: </span> Jugo en presentación de caja.
                                 </p>
 
                             </div>
@@ -326,11 +329,11 @@ const Services = () => {
                     </Service>
                 </div>
                 <div id="bebidas" className="">
-                    <ServiceQuad
+                    <Service
                         title="ESTACION DE BEBIDAS FRÍAS A LA MINUTA"
                         colorTitle={"text-[#f55878]"}
                         colorBg={"bg-bgBebidas"}
-                        imgSrc={bebidasQ}>
+                        imgSrc={bebidasN}>
                         <div className="py-8 font-medium">
                             <h2 className="font-bold text-[#58b7f5] text-2xl">SODAS:</h2>
                             <div className="flex gap-2 items-center">
@@ -430,7 +433,7 @@ const Services = () => {
 
                             </div>
                         </div>
-                    </ServiceQuad>
+                    </Service>
                 </div>
             </div>
         </div>
