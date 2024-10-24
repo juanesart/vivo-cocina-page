@@ -28,13 +28,13 @@ const HeaderBlack = () => {
                             </Link>
                             <ul className='absolute hidden group-hover:block bg-white shadow-lg p-4 rounded-lg'>
                                 <li className='block px-4 py-2 text-gray-800 hover:bg-gray-200 duration-300'>
-                                    <Link href={'#refrigerios'}>Refrigerios Mexicanos</Link>
+                                    <Link href={'#mexicanos'}>Refrigerios Mexicanos</Link>
                                 </li>
                                 <li className='block px-4 py-2 text-gray-800 hover:bg-gray-200 duration-300'>
-                                    <Link href={'#refrigerios'}>Refrigerios Saludables</Link>
+                                    <Link href={'#saludables'}>Refrigerios Saludables</Link>
                                 </li>
                                 <li className='block px-4 py-2 text-gray-800 hover:bg-gray-200 duration-300'>
-                                    <Link href={'#refrigerios'}>sandwich Refrigerios</Link>
+                                    <Link href={'#sandwiches'}>sandwich Refrigerios</Link>
                                 </li>
                                 <li className='block px-4 py-2 text-gray-800 hover:bg-gray-200 duration-300'>
                                     <Link href={'#almuerzos'}>Almuerzos</Link>
