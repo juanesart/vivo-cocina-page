@@ -17,7 +17,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="md:text-3xl md:leading-10 text-xl items-center text-justify col-span-2 py-20  text-white block1">
-                    <p>Somos una Empresa que nace con la idea de brindar un servicio único, para convertirse en realidad con la alta calidad de nuestras preparaciones y productos, con el propósito de superar las expectativas de nuestros clientes. Desarrollando día a día, técnicas de cocción que nos permitan brindar alimentos que conserven sus nutrientes.</p>
+                    <p>Somos una empresa que nace con la idea de brindar un servicio único, para convertirse en realidad con la alta calidad de nuestras preparaciones y productos, con el propósito de superar las expectativas de nuestros clientes. Desarrollando día a día, técnicas de cocción que nos permitan brindar alimentos que conserven sus nutrientes.</p>
                     <p>Lleva la alta cocina a tus eventos con nuestros exclusivos refrigerios de autor, preparados con productos frescos y elaborados a la minuta para garantizar la máxima calidad. Sorprende a tus invitados con sabores únicos.</p>
                 </div>
             </div>
