@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import cheft from '../assets/cheft2.webp';
-import cheft3 from '../assets/cheft3.webp';
 import cheftBlur from '../assets/cheftBlur.webp';
+import pasabocas from '../assets/pasabocas.webp';
 const Extra = () => {
     return (
         <div id="shows" className="">
@@ -33,7 +33,7 @@ const Extra = () => {
                                 <li className='py-2'>QUESADILLA: Tortilla de trigo, queso Mozzarella y Arequipe.</li>
                             </ul>
                         </div>
-                        <div className="flex justify-between py-10 ">
+                        <div className="flex flex-col sm:flex-row justify-between py-10 ">
                             <div className="flex flex-col">
                                 <h2 className="text-3xl font-bold  text-secondary">SALSAS</h2>
                                 <ul className="list-inside list-disc text-xl md:text-3xl font-medium self-center">
@@ -47,7 +47,7 @@ const Extra = () => {
                                 </ul>
                             </div>
                             <div className="">
-                                <Image src={cheft}
+                                <Image src={pasabocas}
                                     className="object-cover rounded-3xl shadow-2xl" alt="chef" />
                             </div>
                         </div>

@@ -34,7 +34,7 @@ const HeaderBlack = () => {
                                     <Link href={'#saludables'}>Refrigerios Saludables</Link>
                                 </li>
                                 <li className='block px-4 py-2 text-gray-800 hover:bg-gray-200 duration-300'>
-                                    <Link href={'#sandwiches'}>sandwich Refrigerios</Link>
+                                    <Link href={'#sandwiches'}>Sandwich Refrigerios</Link>
                                 </li>
                                 <li className='block px-4 py-2 text-gray-800 hover:bg-gray-200 duration-300'>
                                     <Link href={'#almuerzos'}>Almuerzos</Link>
